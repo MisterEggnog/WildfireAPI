@@ -1,6 +1,9 @@
-import catbot
-import catbot.commands
-import catbot.config
-import catbot.events
+import fireapi
+import fireapi.config
 
-catbot.bot.run(catbot.config.keys["discord"])
+#import catbot
+#import catbot.commands
+#import catbot.config
+#import catbot.events
+
+#catbot.bot.run(catbot.config.keys["discord"])

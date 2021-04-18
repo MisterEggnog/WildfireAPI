@@ -7,6 +7,7 @@ import sys
 zipcode = sys.argv[1]
 
 print(fireapi.commands.zipToLatLong(zipcode))
+print(fireapi.commands.zipToState(zipcode))
 
 #import catbot
 #import catbot.commands

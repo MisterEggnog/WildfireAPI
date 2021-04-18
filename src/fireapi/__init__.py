@@ -1,6 +1,8 @@
 import discord.ext.commands
 import json
 
+import fireapi.config
+
 class FireApiNotLoadedConfigError(Exception): pass
 
 try:

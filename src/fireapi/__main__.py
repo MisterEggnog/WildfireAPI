@@ -1,9 +1,9 @@
 import fireapi
 import fireapi.config
+import fireapi.commands
 
-#import catbot
-#import catbot.commands
-#import catbot.config
-#import catbot.events
+import sys
+    
+zipcode = sys.argv[1]
 
-#catbot.bot.run(catbot.config.keys["discord"])
+print(fireapi.commands.zipToLatLong(zipcode))
